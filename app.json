@@ -2,7 +2,7 @@
   "name": "WoofieMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/W29F/WoofieMusicv2.5",
+  "repository": "https://github.com/privatewf29/WoofieMusicv2.5",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -44,7 +44,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/e752495c7ece3517b84de.png"
+      "value": "https://telegra.ph/file/e706152f8ad3d3033bb34.png"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
