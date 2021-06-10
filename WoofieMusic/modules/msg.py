@@ -96,11 +96,10 @@ f"""
 **=>> More tools 🧑‍🔧**
 
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 
 **=>> Commands for Sudo Users ⚔️**
 
- - /userbotleaveall - remove assistant from all chats
+ 
  - /gcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
