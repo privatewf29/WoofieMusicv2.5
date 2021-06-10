@@ -1,4 +1,4 @@
-# Woofiemusic (Telegram bot project )
+ # Woofiemusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -30,14 +30,12 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "-", url=f"-")],
+                        "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "-", url=f"-}"), 
+                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "-", url=f"-")
-                ],[
-                   
+                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ]
             ]
         ),
@@ -52,7 +50,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "-", url=f"-"
+                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
@@ -93,9 +91,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '-', url=f"-"),
-             InlineKeyboardButton(text = '-, url=f"h-")],
-            [InlineKeyboardButton(text = '-', url=f"-")],
+            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
+            
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -121,4 +119,3 @@ async def ghelp(_, message: Message):
             ]
         ),
     )
-
